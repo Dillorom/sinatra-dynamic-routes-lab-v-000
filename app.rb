@@ -32,7 +32,7 @@ class App < Sinatra::Base
     if operation == "add"
       result = number1 + number2
     elsif operation == "subtract"
-      result = number1 = number2
+      result = number1 - number2
     elsif operationm == "multiply"
       result = number1 * number2
     elsif operation == "divide"
