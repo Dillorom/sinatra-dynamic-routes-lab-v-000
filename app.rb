@@ -40,7 +40,7 @@ class App < Sinatra::Base
     else
       result = "invalid"
     end
-    answer.to_s
+    result.to_s
   end
 
 end
