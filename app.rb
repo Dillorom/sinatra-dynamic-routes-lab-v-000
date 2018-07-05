@@ -33,7 +33,7 @@ class App < Sinatra::Base
       result = number1 + number2
     elsif operation == "subtract"
       result = number1 - number2
-    elsif operationm == "multiply"
+    elsif operation == "multiply"
       result = number1 * number2
     elsif operation == "divide"
       result = number1 / number2
